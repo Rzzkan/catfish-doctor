@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/lelebibit"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/perawatanbibit"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isisatu"
+            android:layout_toEndOf="@+id/lelebibit"
+            android:text="        Cara perawatan ikan lele untuk usia bibit harus sangat diawasi sangatlah ketat agar tidak terjadi hal yang tidak dinginkan maka dari itu ada beberapa hal yang harus diperhatikan anatara lain :"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubik_regular"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/isidua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isisatu"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:layout_toEndOf="@+id/lelebibit"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Bersihkan Kolam Ikan"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isidua"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/lelebibit"
+            android:fontFamily="@font/rubik_regular"
+            android:text="Kolam yang akan digunakan harus melalui pembersihan dengan benar, dengan membersihkan lumut yang terdapat pada kolam dengan sikat lalu pemberian kapur pada setiap dinding kolan"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subisi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subisi"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="agar membunuh jamur dan bakteri yang berada pada kolam dan selanjutnya lakukan pengeringan dengan menjemur kolam dibawah sinar matahari selama satu hari."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isi3"
+            android:layout_below="@+id/subisi1"
+            android:text="Benih Ikan Lele"
+            android:fontFamily="@font/rubik_bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subisi3"
+            android:layout_below="@+id/isi3"
+            android:text="      Pastikan bibit ikan lele mendapatkan kwalitas grade A atau kwalitsa terbaik.  Sebelum dimasukkan ke kolam, benih perlu dipuasakan terlebih dahulu selama 6-8 jam. Puasa juga harus berlanjut setelah 2-3 jam benih ditebar. Penebaran benih sebaiknya dilakukan pada pagi atau sore hari. Sebelum ditebar, benih harus diaklimatisasi terlebih dahulu selama 15-30 menit. Anda juga tidak boleh memaksakan tebar bibit ikan dalam jumlah melebihi kapasitas kolam akan menyebabkan kematian karena kepadatan kolam."
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isi4"
+            android:layout_below="@+id/subisi3"
+            android:text="Pemberian Makan Dan Suplemen"
+            android:fontFamily="@font/rubik_bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subisi4"
+            android:layout_below="@+id/isi4"
+            android:text="Salah satu kunci untuk melawan penyakit adalah kondisi tubuh ikan lele yang kuat. Oleh karena itu, jangan lupa untuk memberikan suplemen agar stamina ikan menjadi lebih kuat dan pertumbuhannya cepat. Atur pemberian jenis pakan, jumlah, serta cara dan pola pemberian pakan"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+        <Button
+            android:id="@+id/btn_pindah"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:layout_below="@id/subisi4"
+            android:layout_marginTop="5dp"
+            android:text="Back Home"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/teal_200"/>
+
+    </RelativeLayout>
+
+</ScrollView>

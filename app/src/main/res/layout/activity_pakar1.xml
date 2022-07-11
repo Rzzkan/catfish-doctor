@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:paddingLeft="10dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/tv_Judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_profile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/rubik_bold"
+                android:text="Bio Data"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv_Nama"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Judul"
+                android:text="Nama              :"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_isi_Nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Judul"
+                android:layout_toEndOf="@+id/tv_Nama"
+                android:text="xxxx"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Nama"
+                android:id="@+id/tv_Alamat"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:text="Alamat            :"
+                />
+
+            <TextView
+                android:id="@+id/tv_isi_Alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_Nama"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/tv_Alamat"
+                android:text="xxxx"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_Pekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_isi_Alamat"
+                android:layout_marginTop="10dp"
+                android:text="Pekerjaan        :"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_isi_Pekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_isi_Alamat"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/tv_Alamat"
+                android:text="xxxxxx"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_Pengalaman"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_isi_Pekerjaan"
+                android:layout_marginTop="10dp"
+                android:text="Deskripsi         :"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_isi_Pengalaman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_isi_Pekerjaan"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/tv_Pengalaman"
+                android:text="xxxx"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_wa"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_isi_Pengalaman"
+                android:layout_marginTop="10dp"
+                android:text="Wa                    :"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv_isi_wa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_isi_Pengalaman"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/tv_wa"
+                android:text="xxxxx"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</ScrollView>

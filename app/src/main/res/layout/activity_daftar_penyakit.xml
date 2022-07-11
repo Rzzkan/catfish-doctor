@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarPenyakit">
+
+    <RelativeLayout
+        android:id="@+id/boxatas"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/logo"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Sistem Pakar Ikan Lele"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/judul2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/logo"
+            android:fontFamily="@font/rubik_regular"
+            android:text="Cara Perawatan Ikan Lele"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/polije"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/polije" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pemisah"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@+id/boxatas"
+        android:background="@color/gray" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pemisah"
+        android:scrollbars="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Daftar"
+        android:text="Daftar Penyakit"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rubik_bold"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/Submenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Daftar"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="Kematian Tingkat Tinggi"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Submenu"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rubik_bold"
+        android:paddingLeft="10dp"
+        android:text="1. Jamur"
+        android:textColor="@color/black" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/isijamur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isi"
+            android:fontFamily="@font/rubik_regular"
+            android:padding="10dp"
+            android:text="Penyakit ini awalnya akan terlihat tumbu abu-abu atau putih di sekitar kulit atau sirip. Jamur yang ini menyerang ini hampir menyerupai tumbuhan kapas. Penyakit Jamur ini dapat mudah menyebar kepada ikan lele lainnya"
+            android:textColor="@color/black" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aeronmas"
+            android:padding="10dp"
+            android:layout_below="@+id/isijamur"
+            android:fontFamily="@font/rubik_bold"
+            android:text="2. Aeronomas"
+            android:textColor="@color/black"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isiaeronmas"
+            android:layout_below="@id/aeronmas"
+            android:fontFamily="@font/rubik_regular"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:text="Penyakit ini merupakan salah satu yang paling sering terjadi. Serangan bakteri ini bisa diketahui dengan melihat gejala pada ikan lele yang ditandai dengan perutikan menggembung, pangkal sirip bengkak dan terdapat luka di tubuh ikan. Penyakit juga dapat di sebabkan oleh ph air yang tidak stabil karena tingkat ke asaman yang tinggi"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ccv"
+            android:layout_below="@id/isiaeronmas"
+            android:padding="10dp"
+            android:fontFamily="@font/rubik_bold"
+            android:textColor="@color/black"
+            android:text="3. Channel Catfish Virus"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/isiccv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ccv"
+                android:fontFamily="@font/rubik_regular"
+                android:padding="10dp"
+                android:text="CCV adalah penyakit ikan lele yang sangat merusak yang dapat memiliki dampak ekonomi yang besar bagi peternakan lele. Yang disebabkan oleh sebuah virus dapat menyebar dengan cepat dengan kematian yang cukup tinggi."
+                android:textColor="@color/black" />
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Submenu2"
+                    android:layout_below="@+id/isiccv"
+                    android:layout_marginTop="20dp"
+                    android:textSize="17dp"
+                    android:fontFamily="@font/rubik_bold"
+                    android:textColor="@color/black"
+                    android:text="Kematian Tingkat Rendah"
+                    android:gravity="center"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kuning"
+                    android:layout_below="@id/Submenu2"
+                    android:layout_marginTop="20dp"
+                    android:padding="10dp"
+                    android:fontFamily="@font/rubik_bold"
+                    android:textColor="@color/black"
+                    android:text="1. Penyakit Kuning "
+                    />
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isikuning"
+                android:layout_below="@id/kuning"
+                android:padding="10dp"
+                android:fontFamily="@font/rubik_regular"
+                android:textColor="@color/black"
+                android:text="Salah satu penyakit lele yang cukup sering menyerang adalah penyakit kuning atau jaundice. Penyakit ini timbul akibat dari malnutrisi akibat dari kesalahan dalam memberikan pakan. Hal ini menjadi pembelajaran bagi pembudidaya untuk hati-hati dan selektif dalam memilih pakan. Pastikan bahwa pakan dalam kondisi baik dan tidak kadaluwarsa sebelum diberikan pada ikan."
+                />
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ususpecah"
+                android:layout_below="@id/isikuning"
+                android:padding="10dp"
+                android:fontFamily="@font/rubik_bold"
+                android:textColor="@color/black"
+                android:text="2. Usus Pecah"
+                />
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isiususpecah"
+                android:layout_below="@id/ususpecah"
+                android:padding="10dp"
+                android:fontFamily="@font/rubik_regular"
+                android:textColor="@color/black"
+                android:text="Penyakit ini biasa terjadi pada lele berusia bibit dikarenakan pemberian pakan yang berlebih pada ikan lele yang menyebabkan pencernaan ikan pada usia bibit tidak dapat mencerna dengan sempurna."
+                />
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stresberlebihan"
+                android:layout_below="@id/isiususpecah"
+                android:padding="10dp"
+                android:fontFamily="@font/rubik_bold"
+                android:textColor="@color/black"
+                android:text="3. Strees Berlebihan"
+                />
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isistresberlebihan"
+                android:layout_below="@id/stresberlebihan"
+                android:padding="10dp"
+                android:fontFamily="@font/rubik_regular"
+                android:textColor="@color/black"
+                android:text="Hal ini disebabkan oleh kesalahan petani ikan itu sendiri banyak faktor yang menyebabkan ikan lele terdampak strees berlebih dari keruhnya air padatnya tebar dan lain-lain"
+                />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_home"
+                    android:layout_below="@+id/isistresberlebihan"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:text="Back Home"
+                    android:backgroundTint="@color/teal_200"
+                    />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

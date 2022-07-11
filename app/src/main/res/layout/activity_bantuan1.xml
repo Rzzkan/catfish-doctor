@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bantuan1"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mt_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Bantuan #1"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@+id/mt_judul"
+
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mt_isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mt_judul"
+        android:paddingRight="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Anda harus memilih dan mencentang cek list sesuai dengan gejala yang dialami oleh ikan yang sedang sakit. Lalu anda Juga akan memeberi bobot nilai yang harus anda isikan sesuai dengan nilai keyakinan anda. Ada beberapa Nilai keyakinan yang di ubah berbentuk angka yaitu : \n1. 0 (Tidak)\n2. 0,2 (Tidak Tahu) \n3. 0,4 (Sedikit Yakin) \n4. 0,6 (Cukup Yakin)\n5. 0,8 (Yakin)\n6. 1 (Sangat Yakin)\n\nSetelah memeilih nilai keyakinan sesuai ciri ciri yang anda berikan maka akan dilakukan proses perhitungan dan penyakit yang ikan lele derita akan muncul beserta solusinya" />
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:id="@+id/rl_next"
+        android:layout_below="@+id/mt_isi"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_alignParentRight="true"
+            android:textColor="#3F51B5"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

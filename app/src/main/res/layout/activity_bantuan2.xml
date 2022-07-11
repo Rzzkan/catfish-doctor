@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bantuan2"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mt_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rubik_bold"
+        android:text="Bantuan #2"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@+id/mt_judul"
+
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/mt_isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mt_judul"
+        android:paddingRight="40dp"
+        android:layout_marginTop="15dp"
+        android:text="Anda harus memilih dan mencentang cek list sesuai dengan gejala atau ciri - ciri yang dialami oleh ikan yang sedang sakit. Selanjutnya Klik tombol proses maka sistem akan memproses pernyataan anda yang telah anda pilih dan akan menampilkan output penyakit beserta solusinya. " />
+
+    <RelativeLayout
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:id="@+id/rl_back"
+        android:layout_below="@+id/mt_isi"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_alignParentRight="true"
+            android:textColor="#3F51B5"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

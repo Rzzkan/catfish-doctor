@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/activity_certainty_factor.xml" value="0.67" />
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/activity_daftar_pakar.xml" value="0.12239583333333333" />
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/activity_diagnosis.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/activity_forward_chaining.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/activity_perawatan_remaja.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/activity_tanya_dokter.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/adapter_gejala.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/Aditya Nur Riskan N/Downloads/uplurr/uplurr/docLele/docLele/app/src/main/res/layout/dialog.xml" value="0.5" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/drawable/form.xml" value="0.1555" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1555" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/drawable/radius_box.xml" value="0.1795" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/drawable/radius_oval.xml" value="0.1555" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_dashboard.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_login.xml" value="0.2296875" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_splash_screen.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/DANA/AndroidStudioProjects/docLele/app/src/main/res/xml/network_security_config.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/drawable-v24/button.xml" value="0.152" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/drawable/button.xml" value="0.152" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/drawable/form.xml" value="0.152" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_dashboard.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_login.xml" value="0.14" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/Wahid Arif/AndroidStudioProjects/docLele/app/src/main/res/layout/activity_splash_screen.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/drawable/button.xml" value="0.121" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/drawable/form.xml" value="0.121" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/drawable/radius_box.xml" value="0.121" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/drawable/radius_oval.xml" value="0.121" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/drawable/radius_panel_menu.xml" value="0.121" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/layout/activity_certainty_factor.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/layout/activity_tanya_dokter.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/layout/item_dashboard.xml" value="0.2" />
+        <entry key="..\:/Users/pante/OneDrive/Documents/docLele/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/btn_box.xml" value="0.1445" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/cardfoto.xml" value="0.1445" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/dockterrr.xml" value="0.121" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/form.xml" value="0.1445" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.121" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/ic_doctor.xml" value="0.121" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/radius_box.xml" value="0.1" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/radius_oval.xml" value="0.1445" />
+        <entry key="..\:/docLele/app/src/main/res/drawable/radius_panel_menu.xml" value="0.1445" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_about.xml" value="0.16666666666666666" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_bantuan.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_bantuan1.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_bantuan2.xml" value="0.1859375" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_cara_perawatan.xml" value="0.22" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_certainty_factor.xml" value="0.22" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_daftar_pakar.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_daftar_penyakit.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_forwar_chaining.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_forward_chaining.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_pakar1.xml" value="0.16666666666666666" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_pakar2.xml" value="0.184375" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_pakar3.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_pakar4.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_perawatan_bibit.xml" value="0.14666666666666667" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_perawatan_remaja.xml" value="0.16666666666666666" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/docLele/app/src/main/res/layout/activity_tanya_dokter.xml" value="0.22" />
+        <entry key="..\:/docLele/app/src/main/res/layout/item_dashboard.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/docLele/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1095" />
+        <entry key="..\:/docLele/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_about.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_bantuan.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_cara_perawatan.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_certainty_factor.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_daftar_pakar.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_daftar_penyakit.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_forward_chaining.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_pakar1.xml" value="0.16666666666666666" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/activity_tanya_dokter.xml" value="0.2" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/adapter_gejala.xml" value="0.19895833333333332" />
+        <entry key="..\:/pt2/docLele/app/src/main/res/layout/adapter_main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

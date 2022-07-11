@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/leleremaja"
+            android:layout_width="200dp"
+            android:layout_height="400dp"
+            android:layout_marginBottom="-135dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/perawatanremaja" />
+
+        <TextView
+            android:id="@+id/isisatu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="        Cara perawatan ikan lele untuk usia remaja lebih mudah dari pada saat usia bibit dikarenakan saat remaja ikan dapat tahan terhadap lingkungan sekitar tidak seperti bibit yang sangat rentan yang harus diawasi ekstra. Beberapa cara perawatan pada ikan berusia remaja sebagai beriku :"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/isidua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isisatu"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Manajemen Pakan"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isidua"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/leleremaja"
+            android:fontFamily="@font/rubik_regular"
+            android:text="      Pakan yang digunakan dalam budidaya ikan lele berupa pakan apung, pakan ikan lele memiliki ukuran yang berbeda, sesuai dengan umur ikan. Dikarenakan ukuran pakan harus"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subisi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leleremaja"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="disesuaikan dengan bukaan mulut ikan lele.Pemberian pakan dilakukan setiap 3 kali sehari, dengan interval waktu 8 jam sekali."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/isi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subisi1"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Pemeliharaan"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subisi3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isi3"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="      Dalam menjalankan pemeliharaan ikan lele, hal pertama yang harus dilakukan adalah dengan melakukan grading minimal dua minggu sekali. Tujuannya adalah menyeragamkan ukuran lele dalam satu kolam, sehingga tingkat kanibalisme antar ikan lele akan berkurang.\nIkan lele termasuk tipikal ikan kanibalisme, hal tersebut dapat dipicu oleh dua hal, yang pertama pemberian pakan yang tidak optimal, yang kedua adalah pembudidaya tidak melakukan grading, sehingga ikan yang berukuran besar akan memangsa ikan yang berukuran lebih kecil."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/isi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subisi3"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_bold"
+            android:text="Penggantian Air"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subisi4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isi4"
+            android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/rubik_regular"
+            android:text="      Pergantian air pada kolam budidaya ikan lele dapat dilakukan apabila baru saja terjadi hujan, atau tercium bau tidak sedap di kolam. Disarankan mengganti air sekali sehari untuk meminimalisirkan lele akan stress maka lakukan penggantian air dilakukan pada pagi hari sebelum memberi pakan. Ketika melakukan penggantian air, disarankan membuang yang terdapat di sekitar bagian dasar kolam karena air tersebut mengandung bakteri berasal dari tumpukan kotoran ikan dan pakan yang tidak dimakan lalu mengendap didasar kolam yang sangat berbahaya bagi kelangsungan hidup ikan lele."
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btn_pindah"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/subisi4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Back Home"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+</ScrollView>
